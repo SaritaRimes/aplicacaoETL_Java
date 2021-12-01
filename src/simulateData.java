@@ -24,13 +24,6 @@ public class simulateData {
             System.out.println(v[i]);
         }
 
-        /*for (int i = 0; i < tamVetor; ++i) {
-            teste1.println(v[i]);
-        }
-
-        teste1.flush();
-        teste1.close();*/
-
         List<Double> list = new ArrayList<Double>();
         File file = new File("teste.txt");
         BufferedReader reader = null;

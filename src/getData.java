@@ -92,7 +92,6 @@ public class getData {
 
 
 
-
     /* Criando a funcao para o Insertion Sort */
     /*a recursividade nao pode ser utilizada pois sao muitos os elementos para serem ordenados
       e a linguagem Java gera um erro de capacidade maxima de memoria atingida*/
@@ -117,74 +116,3 @@ public class getData {
         }
     }
 }
-
-/*posicaoInicial = 1; //posicao que inicia sendo comparada
-        posicaoComparacao = posicaoInicial - 1; //posicao que inicia a comparacao
-
-        while (posicaoComparacao >= 0 && v[posicaoInicial] < v[posicaoComparacao]) {
-            auxiliar = v[posicaoComparacao];
-            v[posicaoComparacao] = v[posicaoInicial];
-            v[posicaoInicial] = auxiliar;
-            posicaoInicial = posicaoComparacao;
-            --posicaoComparacao;
-        }
-
-        posicaoInicial = 2; //posicao que inicia sendo comparada
-        posicaoComparacao = posicaoInicial - 1; //posicao que inicia a comparacao
-        while (posicaoComparacao >= 0 && v[posicaoInicial] < v[posicaoComparacao]) {
-            auxiliar = v[posicaoComparacao];
-            v[posicaoComparacao] = v[posicaoInicial];
-            v[posicaoInicial] = auxiliar;
-            posicaoInicial = posicaoComparacao;
-            --posicaoComparacao;
-        }
-
-        posicaoInicial = 3; //posicao que inicia sendo comparada
-        posicaoComparacao = posicaoInicial - 1; //posicao que inicia a comparacao
-        while (posicaoComparacao >= 0 && v[posicaoInicial] < v[posicaoComparacao]) {
-            auxiliar = v[posicaoComparacao];
-            v[posicaoComparacao] = v[posicaoInicial];
-            v[posicaoInicial] = auxiliar;
-            posicaoInicial = posicaoComparacao;
-            --posicaoComparacao;
-        }
-
-        posicaoInicial = 4; //posicao que inicia sendo comparada
-        posicaoComparacao = posicaoInicial - 1; //posicao que inicia a comparacao
-        while (posicaoComparacao >= 0 && v[posicaoInicial] < v[posicaoComparacao]) {
-            auxiliar = v[posicaoComparacao];
-            v[posicaoComparacao] = v[posicaoInicial];
-            v[posicaoInicial] = auxiliar;
-            posicaoInicial = posicaoComparacao;
-            --posicaoComparacao;
-        }
-
-        posicaoInicial = 5; //posicao que inicia sendo comparada
-        posicaoComparacao = posicaoInicial - 1; //posicao que inicia a comparacao
-        while (posicaoComparacao >= 0 && v[posicaoInicial] < v[posicaoComparacao]) {
-            auxiliar = v[posicaoComparacao];
-            v[posicaoComparacao] = v[posicaoInicial];
-            v[posicaoInicial] = auxiliar;
-            posicaoInicial = posicaoComparacao;
-            --posicaoComparacao;
-        }
-
-        posicaoInicial = 6; //posicao que inicia sendo comparada
-        posicaoComparacao = posicaoInicial - 1; //posicao que inicia a comparacao
-        while (posicaoComparacao >= 0 && v[posicaoInicial] < v[posicaoComparacao]) {
-            auxiliar = v[posicaoComparacao];
-            v[posicaoComparacao] = v[posicaoInicial];
-            v[posicaoInicial] = auxiliar;
-            posicaoInicial = posicaoComparacao;
-            --posicaoComparacao;
-        }
-
-        posicaoInicial = 7; //posicao que inicia sendo comparada
-        posicaoComparacao = posicaoInicial - 1; //posicao que inicia a comparacao
-        while (posicaoComparacao >= 0 && v[posicaoInicial] < v[posicaoComparacao]) {
-            auxiliar = v[posicaoComparacao];
-            v[posicaoComparacao] = v[posicaoInicial];
-            v[posicaoInicial] = auxiliar;
-            posicaoInicial = posicaoComparacao;
-            --posicaoComparacao;
-        }*/
