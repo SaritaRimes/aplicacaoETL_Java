@@ -4,8 +4,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 
 public class getData {
     /* Cria a variavel que armazena o endereco URL */
@@ -18,7 +16,9 @@ public class getData {
         double[] numbersDataVector = new double[1000000];
 
         int numberPage = 1;
-        String numbersData = temporario.replace("1", Integer.toString(numberPage)); //para que seja possivel iniciar a partir de qualquer pagina
+        String numbersData = temporario.replace("1", Integer.toString(numberPage)); /*para que seja possivel
+                                                                                            iniciar a partir de qualquer
+                                                                                            pagina*/
         temporario = numbersData;
 
         /* Iniciando o loop para leitura e armazenamento dos dados de todas as paginas */
